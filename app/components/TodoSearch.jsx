@@ -9,7 +9,7 @@ const TodoSearch = React.createClass({
   },
   render () {
     return (
-      <div>
+      <div lassName="container__header">
         <div>
           <input type="search" ref="searchText" placeholder="Search todos" onChange={this.handleSearch} />
         </div>
